@@ -1,1 +1,61 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+a {
+  color: rgb(149, 236, 239);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  font-family: "Noticia Text", serif;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px;
+  height: 500px;
+  width: 350px;
+  font-size: 150px;
+}
+
+.number {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.icon-top {
+  font-size: 100px;
+  position: absolute;
+  top: -15px;
+  left: 12px;
+}
+
+.icon-bottom {
+  font-size: 100px;
+  position: absolute;
+  bottom: -15px;
+  right: 12px;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.red-down {
+  color: red;
+  transform: rotate(180deg);
+}
+
+.black-down {
+  color: black;
+  transform: rotate(180deg);
+}
